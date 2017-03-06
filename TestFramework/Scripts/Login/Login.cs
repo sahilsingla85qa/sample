@@ -35,6 +35,9 @@ namespace UnitTestProject1
                 mainWindow.SearchProperties.Add(WinWindow.PropertyNames.Name, "Calculator");
                 mainWindow.WindowTitles.Add("Calculator");
 
+
+
+
                 WinButton btnSeven = new WinButton(mainWindow);
                 btnSeven.SearchProperties.Add(WinButton.PropertyNames.Name, "7");
                 WinButton btneight = new WinButton(mainWindow);
